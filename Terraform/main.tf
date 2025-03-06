@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "south_instance" {
- ami = var.ami_value
- instance_type = var.instance_type_value
+ ami = ami-00bb6a80f01f03502
+ instance_type = t2.micro
   
 }
